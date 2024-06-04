@@ -1,0 +1,15 @@
+
+.notice-img{
+    width: 20px;
+    height: 20px;
+}
+
+.notice-items-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(224, 178, 117);
+    width: 400px;
+}

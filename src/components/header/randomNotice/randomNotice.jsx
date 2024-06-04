@@ -1,4 +1,4 @@
-
+import './randomNotice.css'
 
 
 export default function RandomNotice(props) {
@@ -6,8 +6,8 @@ export default function RandomNotice(props) {
     const {title, text, link, date} = props
 
     return (
-        <div>
-            <a href={link}><h1>{title}</h1></a>
+        <div className="random-notice">
+            <a href={link}><h3>{title}</h3></a>
             <p>{text}</p>
             <p>{date}</p>
         </div>

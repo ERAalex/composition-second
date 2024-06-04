@@ -1,13 +1,20 @@
 import Widget from "../widgetItem/widgetItem.jsx";
 
-export default function WidgetTV() {
+export default function WidgetTV(props) {
+
   return (
     <Widget title="Телепрограмма">
-      <div>
-        <div>02:00 ТНТ.Best</div>
-        <div>02:15 Джинглики</div>
-        <div>02:25 Наедине со всеми</div>
-      </div>
+        <div>
+            {props.props.map((tv, index) => (
+                <div key={index}>
+                    <a href={tv.link}><h4>{tv.time}</h4></a>
+                    <p>{tv.text}</p>
+                    <p>{tv.channel}</p>
+
+                </div>
+            ))}
+        </div>
     </Widget>
-  );
+);
+
 }

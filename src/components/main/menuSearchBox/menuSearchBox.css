@@ -1,0 +1,22 @@
+
+.search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(149, 226, 214);
+    padding: 10px;
+    text-align: center;
+}
+
+.search-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(149, 226, 214);
+    padding: 10px;
+    text-align: center;
+}

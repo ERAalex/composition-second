@@ -1,0 +1,9 @@
+
+.menu-sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(149, 149, 226);
+}

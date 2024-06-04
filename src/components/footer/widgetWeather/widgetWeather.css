@@ -1,0 +1,31 @@
+
+.weather-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(224, 178, 117);
+
+}
+
+.weather-item-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(224, 178, 117);
+    width: 50px;
+    margin-left: 5px;
+}
+
+.weather-item-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(132, 91, 37);
+    width: 100px;
+}
